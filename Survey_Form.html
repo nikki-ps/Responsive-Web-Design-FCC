@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Nikki's Survey Form</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1 id="title">Survery !! </h2>
+    <p id="description"> nikki-chans super awesome survery </p>
+    <form id="survey-form">
+      <div class="form-group">
+        <label for="name" id="name-label">what do I call you? <input id="name" type="text" name="name" placeholder="NAME PLEASE" required /></label>
+      </div>
+      <div class="form-group">
+        <label id="email-label" for="email"> let me know your electronic mail: <input id="email" name="email" type="email" placeholder="talking about email ;)" required /> </label>
+      </div>
+      <div class="form-group">
+        <label id="number-label" for="number">what's your age? i dont really care tho tbh :/ <input placeholder="idc == optional" id="number" name="number" type="number" min="0" max="100" /></label>
+      </div>
+      <div class="form-group">
+        <label id="select-label" for="dropdown">choose or die
+          <select id="dropdown" name="dropdown">
+            <option value="">(select one)</option>
+            <option value="1">nikki is the best</option>
+            <option value="2">forfiet all monetary posessions to nikki</option>
+            <option value="3">DONT PICK THIS ONE AT 1AM :0</option>
+            <option value="3">i am so empty. every day is meaningless</option>
+          </select>
+        </label>
+      </div>
+      <div class="form-group">
+        <p> Welcome to Wendy's. What would you like?</p>
+        <label id="checkbox-label"><input name="order" type="checkbox" class="input-checkbox" value="burgers" />55 burgers</label>
+        <label id="checkbox-label"><input name="order" type="checkbox" class="input-checkbox" value="fries" />55 fries</label>
+        <label id="checkbox-label"><input name="order" type="checkbox" class="input-checkbox" value="tacos"/>55 tacos</label>
+        <label id="checkbox-label"><input name="order" type="checkbox" class="input-checkbox" value="pies" />55 pies</label>
+        <label id="checkbox-label"><input name="order" type="checkbox" class="input-checkbox" value="cokes" />55 cokes</label>
+        <label id="checkbox-label"><input name="order" type="checkbox" class="input-checkbox" value="tots" />100 tater tots</label>
+      </div>
+      <div class="form-group">
+        <label id="text-label" for="comments">any questions?
+          <textarea id="comments" name="comments" rows="3" cols="30" placeholder="dont yap to much though please"></textarea>
+        </label>
+      </div>
+      <div class="form-group">
+        <input type="submit" id="submit" value="submit" />
+      </div>
